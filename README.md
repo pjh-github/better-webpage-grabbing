@@ -7,7 +7,8 @@ Takes a file containing urls seperated by newlines and downloads the pages are t
 
 * Input: Text file containing one url per line.
 * Output: `data/` directory containing successfully downloaded URLs, csv metadata file in pwd with format: filename,url_source,datetime,hash
-# Example Usage
+
+# Prerequisites
 
 If you don't have `parallel` installed already;
 
@@ -15,6 +16,8 @@ If you don't have `parallel` installed already;
 OR
 
         ./install.sh    
+
+# Example Usage
 
 `./wgetUrlsWithMetaData.sh test.txt`
 
