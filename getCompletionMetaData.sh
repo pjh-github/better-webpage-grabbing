@@ -16,4 +16,4 @@ echo $successful_downloads files successfully downloaded.
 echo Total amount of data successfully acquired: $data_folder_size
 echo The smallest file was $smallest_filename at $smallest_filesize
 echo The largest file was $largest_filename at $largest_filesize
-echo The number of failed downloads is $failed_downloads
+echo The number of failed downloads is $failed_downloads.

@@ -24,6 +24,8 @@ This will generate the following new files:
 
 Successfully downloaded files reside in the `data/` directory. The random number after the '_' in each filename is to prevent data loss if a distinct file with the same name on a different domain is downloaded (and would otherwise be overwritten).
 
+## Metadata Output CSV
+
 `cat meta_output.csv`
 
         filename,url_source,datetime,hash,filesize_bytes
@@ -31,3 +33,13 @@ Successfully downloaded files reside in the `data/` directory. The random number
         data/facebook.com_2738712587,https://facebook.com,19:22/09/28/2021,271623169,123585
         data/Kerala_516426438,https://en.m.wikipedia.org/wiki/Kerala,19:22/09/28/2021,4241811873,1313468
         data/dfg2352fasdfdsagfdssadfsaddadff3545235df.com_74182339,dfg2352fasdfdsagfdssadfsaddadff3545235df.com,19:22/09/28/2021,4294967295,0
+
+## Getting Summary Metadata
+
+`./getCompletionMetaData.sh`
+
+        3 files successfully downloaded.
+        Total amount of data successfully acquired: 1.6M
+        The smallest file was Kerala_1395212061 at 1.3M
+        The largest file was google.com_2892128486 at 164K
+        The number of failed downloads is 1.
