@@ -13,20 +13,21 @@ Takes a file containing urls seperated by newlines and downloads the pages are t
 
 This will generate the following new files: 
 
-        .
         ├── data
-        │   ├── facebook.com
-        │   └── google.com
+        │   ├── facebook.com_2738712587
+        │   ├── google.com_1453029789
+        │   └── Kerala_516426438
         ├── failedLog.txt
         ├── failedUrls.txt
         ├── log.txt
         ├── meta_output.csv
 
-Successfully downloaded files reside in the `data/` directory.
+Successfully downloaded files reside in the `data/` directory. The random number after the '_' in each filename is to prevent data loss if a distinct file with the same name on a different domain is downloaded (and would otherwise be overwritten).
 
 `cat meta_output.csv`
 
         filename,url_source,datetime,hash,filesize_bytes
-        data/google.com,https://google.com,19:11/09/28/2021,3974241329,166463
-        data/facebook.com,https://facebook.com,19:12/09/28/2021,1883132648,123578
-        data/dfg2352fasdfdsagfdssadfsaddadff3545235df.com,dfg2352fasdfdsagfdssadfsaddadff3545235df.com,19:12/09/28/2021,4294967295,0
+        data/google.com_1453029789,https://google.com,19:22/09/28/2021,3167848543,166391
+        data/facebook.com_2738712587,https://facebook.com,19:22/09/28/2021,271623169,123585
+        data/Kerala_516426438,https://en.m.wikipedia.org/wiki/Kerala,19:22/09/28/2021,4241811873,1313468
+        data/dfg2352fasdfdsagfdssadfsaddadff3545235df.com_74182339,dfg2352fasdfdsagfdssadfsaddadff3545235df.com,19:22/09/28/2021,4294967295,0
