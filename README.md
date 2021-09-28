@@ -9,6 +9,13 @@ Takes a file containing urls seperated by newlines and downloads the pages are t
 * Output: `data/` directory containing successfully downloaded URLs, csv metadata file in pwd with format: filename,url_source,datetime,hash
 # Example Usage
 
+If you don't have `parallel` installed already;
+
+        sudo apt install parallel
+OR
+
+        ./install.sh    
+
 `./wgetUrlsWithMetaData.sh test.txt`
 
 This will generate the following new files: 
