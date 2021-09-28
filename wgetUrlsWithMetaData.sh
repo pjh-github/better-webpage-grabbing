@@ -6,10 +6,7 @@
 ## Output: Data directory containing downloaded URLs, csv metadata file in pwd with format: filename,url_source,datetime,hash
 
 URLS_TO_DOWNLOAD=$1
-
-while IFS='' read -r LINE || [ -n "${LINE}" ]; do
-	./wgetWithMetaData.sh "$LINE"
-done < $URLS_TO_DOWNLOAD
+cat $URLS_TO_DOWNLOAD | parallel -j 8 ./wgetWithMetaData.sh
 
 # Add headings to the metadata_output.csv
 sed -i "1ifilename,url_source,datetime,hash,filesize_bytes" meta_output.csv
