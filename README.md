@@ -40,6 +40,6 @@ Successfully downloaded files reside in the `data/` directory. The random number
 
         3 files successfully downloaded.
         Total amount of data successfully acquired: 1.6M
-        The smallest file was Kerala_1395212061 at 1.3M
-        The largest file was google.com_2892128486 at 164K
+        The smallest file was facebook.com_2516525256 at 123610 Bytes
+        The largest file was Kerala_504216606 at 1313468 Bytes
         The number of failed downloads is 1.

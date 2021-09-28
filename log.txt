@@ -1,0 +1,76 @@
+--2021-09-28 19:32:50--  https://google.com/
+Resolving google.com (google.com)... 142.250.178.14, 2a00:1450:4009:820::200e
+Connecting to google.com (google.com)|142.250.178.14|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.google.com/ [following]
+--2021-09-28 19:32:50--  https://www.google.com/
+Resolving www.google.com (www.google.com)... 142.250.187.196, 2a00:1450:4009:820::2004
+Connecting to www.google.com (www.google.com)|142.250.187.196|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘data/google.com_206044644’
+
+     0K .......... .......... .......... .......... .......... 2.22M
+    50K .......... .......... .......... .......... .......... 4.07M
+   100K .......... .......... .......... .......... .......... 5.43M
+   150K .......... ..                                          4.99M=0.05s
+
+2021-09-28 19:32:50 (3.49 MB/s) - ‘data/google.com_206044644’ saved [166236]
+
+--2021-09-28 19:32:50--  https://facebook.com/
+Resolving facebook.com (facebook.com)... 157.240.221.35, 2a03:2880:f158:181:face:b00c:0:25de
+Connecting to facebook.com (facebook.com)|157.240.221.35|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.facebook.com/ [following]
+--2021-09-28 19:32:50--  https://www.facebook.com/
+Resolving www.facebook.com (www.facebook.com)... 157.240.214.35, 2a03:2880:f158:82:face:b00c:0:25de
+Connecting to www.facebook.com (www.facebook.com)|157.240.214.35|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘data/facebook.com_2516525256’
+
+     0K .......... .......... .......... .......... ..........  612K
+    50K .......... .......... .......... .......... ..........  630K
+   100K .......... ..........                                  9.93M=0.2s
+
+2021-09-28 19:32:50 (740 KB/s) - ‘data/facebook.com_2516525256’ saved [123610]
+
+--2021-09-28 19:32:51--  https://en.m.wikipedia.org/wiki/Kerala
+Resolving en.m.wikipedia.org (en.m.wikipedia.org)... 91.198.174.192, 2620:0:862:ed1a::1
+Connecting to en.m.wikipedia.org (en.m.wikipedia.org)|91.198.174.192|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1313468 (1.3M) [text/html]
+Saving to: ‘data/Kerala_504216606’
+
+     0K .......... .......... .......... .......... ..........  3% 1.51M 1s
+    50K .......... .......... .......... .......... ..........  7% 3.20M 1s
+   100K .......... .......... .......... .......... .......... 11% 3.84M 0s
+   150K .......... .......... .......... .......... .......... 15% 3.13M 0s
+   200K .......... .......... .......... .......... .......... 19% 4.58M 0s
+   250K .......... .......... .......... .......... .......... 23% 4.97M 0s
+   300K .......... .......... .......... .......... .......... 27% 4.26M 0s
+   350K .......... .......... .......... .......... .......... 31%  991K 0s
+   400K .......... .......... .......... .......... .......... 35% 8.80M 0s
+   450K .......... .......... .......... .......... .......... 38% 10.6M 0s
+   500K .......... .......... .......... .......... .......... 42% 4.49M 0s
+   550K .......... .......... .......... .......... .......... 46% 6.60M 0s
+   600K .......... .......... .......... .......... .......... 50% 3.37M 0s
+   650K .......... .......... .......... .......... .......... 54% 2.11M 0s
+   700K .......... .......... .......... .......... .......... 58% 5.92M 0s
+   750K .......... .......... .......... .......... .......... 62%  922K 0s
+   800K .......... .......... .......... .......... .......... 66% 8.35M 0s
+   850K .......... .......... .......... .......... .......... 70% 38.0M 0s
+   900K .......... .......... .......... .......... .......... 74% 33.2M 0s
+   950K .......... .......... .......... .......... .......... 77% 18.2M 0s
+  1000K .......... .......... .......... .......... .......... 81% 35.1M 0s
+  1050K .......... .......... .......... .......... .......... 85% 22.0M 0s
+  1100K .......... .......... .......... .......... .......... 89% 10.4M 0s
+  1150K .......... .......... .......... .......... .......... 93% 22.5M 0s
+  1200K .......... .......... .......... .......... .......... 97% 11.3M 0s
+  1250K .......... .......... .......... ..                   100% 44.1M=0.3s
+
+2021-09-28 19:32:51 (3.99 MB/s) - ‘data/Kerala_504216606’ saved [1313468/1313468]
+
+--2021-09-28 19:32:51--  http://dfg2352fasdfdsagfdssadfsaddadff3545235df.com/
+Resolving dfg2352fasdfdsagfdssadfsaddadff3545235df.com (dfg2352fasdfdsagfdssadfsaddadff3545235df.com)... failed: Name or service not known.
+wget: unable to resolve host address ‘dfg2352fasdfdsagfdssadfsaddadff3545235df.com’
