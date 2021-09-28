@@ -1,0 +1,40 @@
+--2021-09-28 19:11:59--  https://google.com/
+Resolving google.com (google.com)... 142.250.187.238, 2a00:1450:4009:820::200e
+Connecting to google.com (google.com)|142.250.187.238|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.google.com/ [following]
+--2021-09-28 19:11:59--  https://www.google.com/
+Resolving www.google.com (www.google.com)... 142.250.187.196, 2a00:1450:4009:815::2004
+Connecting to www.google.com (www.google.com)|142.250.187.196|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘data/google.com’
+
+     0K .......... .......... .......... .......... .......... 1.95M
+    50K .......... .......... .......... .......... .......... 5.96M
+   100K .......... .......... .......... .......... .......... 4.46M
+   150K .......... ..                                          3.99M=0.05s
+
+2021-09-28 19:11:59 (3.36 MB/s) - ‘data/google.com’ saved [166463]
+
+--2021-09-28 19:11:59--  https://facebook.com/
+Resolving facebook.com (facebook.com)... 157.240.221.35, 2a03:2880:f158:82:face:b00c:0:25de
+Connecting to facebook.com (facebook.com)|157.240.221.35|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.facebook.com/ [following]
+--2021-09-28 19:12:00--  https://www.facebook.com/
+Resolving www.facebook.com (www.facebook.com)... 157.240.221.35, 2a03:2880:f158:82:face:b00c:0:25de
+Connecting to www.facebook.com (www.facebook.com)|157.240.221.35|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘data/facebook.com’
+
+     0K .......... .......... .......... .......... .......... 1.19M
+    50K .......... .......... .......... .......... .......... 1.08M
+   100K .......... ..........                                  4.99M=0.09s
+
+2021-09-28 19:12:00 (1.31 MB/s) - ‘data/facebook.com’ saved [123578]
+
+--2021-09-28 19:12:00--  http://dfg2352fasdfdsagfdssadfsaddadff3545235df.com/
+Resolving dfg2352fasdfdsagfdssadfsaddadff3545235df.com (dfg2352fasdfdsagfdssadfsaddadff3545235df.com)... failed: Name or service not known.
+wget: unable to resolve host address ‘dfg2352fasdfdsagfdssadfsaddadff3545235df.com’

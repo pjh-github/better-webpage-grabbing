@@ -1,0 +1,3 @@
+--2021-09-28 19:12:00--  http://dfg2352fasdfdsagfdssadfsaddadff3545235df.com/
+Resolving dfg2352fasdfdsagfdssadfsaddadff3545235df.com (dfg2352fasdfdsagfdssadfsaddadff3545235df.com)... failed: Name or service not known.
+wget: unable to resolve host address ‘dfg2352fasdfdsagfdssadfsaddadff3545235df.com’
