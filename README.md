@@ -1,5 +1,5 @@
 # better-webpage-grabbing
-Cross-platform script for pulling URL lists with automatic metadata generation and easy failure tracking. Built for stable usage on large lists. Pretty much a point and click extension of wget for this specific use case. Runs wget in parallel with 8 workers by default. 
+Cross-platform script for pulling URL lists in parallel with automatic metadata generation and easy failure tracking. Built for stable usage on large lists. Pretty much a point and click extension of wget for this specific use case. Uses 8 workers/threads by default. 
 
 # Summary
 
