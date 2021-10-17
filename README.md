@@ -3,8 +3,6 @@ Cross-platform script for pulling URL lists in parallel with automatic metadata 
 
 # Summary
 
-Takes a file containing urls seperated by newlines and downloads the pages are the urls to a 'data/' folder in the current directory. A metadata file is also created in the present working diretory with the format: filename,url_source,datetime,hash,filesize_bytes.
-
 * Input: Text file containing one url per line.
 * Output: `data/` directory containing successfully downloaded URLs, csv metadata file in pwd with format: filename,url_source,datetime,hash
 
@@ -32,7 +30,7 @@ This will generate the following new files:
         ├── log.txt
         ├── meta_output.csv
 
-Successfully downloaded files reside in the `data/` directory. The random number after the '_' in each filename is to prevent data loss if a distinct file with the same name on a different domain is downloaded (and would otherwise be overwritten).
+Successfully downloaded files reside in the `data/` directory. The random number after the '_' in each filename is to prevent data loss if a distinct file with the same name on a different (sub)domain is downloaded (and would otherwise be overwritten).
 
 ## Metadata Output CSV
 
