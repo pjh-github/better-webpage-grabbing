@@ -14,9 +14,9 @@ wget "$1" -O $wget_output_filename --no-check-certificate --timeout=8 --tries=2 
 ## Once the download has finished, append the completed urls to a file with metadata. 
 
 url="$URL_TO_DOWNLOAD"
-filesize_bytes=$(du -b $wget_output_filename | cut -f 1)
+filesize_bytes=$(du -b "$wget_output_filename" | cut -f 1)
 metadata_date=$(date +'%R/%m/%d/%Y')
-hash=$(cksum $wget_output_filename | cut -d ' ' -f 1) ## Use cksum for performance, love gnu core. 
+hash=$(cksum "$wget_output_filename" | cut -d ' ' -f 1) ## Use cksum for performance, love gnu core. 
 
 ## Metadata file format: 
 # filename,url_source,datetime,hash,filesize_bytes
